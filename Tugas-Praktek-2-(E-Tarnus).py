@@ -26,3 +26,4 @@ def hitung_faktorial(n):
 
 for i in range(1, 101):
     print("Faktorial dari", i, "adalah", hitung_faktorial(i))
+
