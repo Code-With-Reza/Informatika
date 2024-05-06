@@ -13,7 +13,7 @@ for p in segitiga:
         i += 1
 
 
-sama_kaki = int(input(ANGKA BANG\n))
+sama_kaki = int(input("ANGKA BANG\n"))
 for i in range(1, rows + 1):
         # Print leading spaces
         print(" " * (rows - i), end="")
