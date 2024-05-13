@@ -23,7 +23,10 @@ def Nested_Loop2():
                 print("Masukkan angka!")
     
         while tebakan_user != angka_rahasia:
-            if tebakan_user < angka_rahasia:
+            if tebakan == batas_tebakan:
+                print(f"Kebanyakan tebakan, udah 10 kali. Jawabannya {angka_rahasia}.")
+                break
+            elif tebakan_user < angka_rahasia:
                 print("Terlalu rendah! Coba lagi.")
             else:
                 print("Terlalu tinggi! Coba lagi.")
@@ -40,4 +43,4 @@ def Nested_Loop2():
                print(f"Selamat! Anda menebak angka rahasia dalam {tebakan} kali tebakan.")
                break
         break
-    
+
